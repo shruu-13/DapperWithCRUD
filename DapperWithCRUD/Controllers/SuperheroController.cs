@@ -60,7 +60,7 @@ namespace DapperWithCRUD.Controllers
 
 		}
 
-		[HttpDelete("{heroId}")]
+		[HttpDelete("{heroId}")] 
 		public async Task<ActionResult<List<Superhero>>> Deleteheros(int heroId)
 		{
 
